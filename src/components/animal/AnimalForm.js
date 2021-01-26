@@ -53,6 +53,7 @@ export const AnimalForm = (props) => {
 
     const constructNewAnimal = () => {
         const locationId = parseInt(animal.locationId)
+        console.log(locationId)
 
         if (locationId === 0) {
             window.alert("Please select a location")
